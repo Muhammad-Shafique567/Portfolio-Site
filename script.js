@@ -151,7 +151,7 @@ clear       - Clear terminal
 • <span class="info">URL:</span> <a class="link" href="https://github.com/Muhammad-Shafique567/WorkoutApp" target="_blank">https://github.com/Muhammad-Shafique567/WorkoutApp</a>
 
 <span class="highlight">3. Food Macro Tracker</span>
-• <span class="info">Technologies:</span> Java, JavaFX, 
+• <span class="info">Technologies:</span> Java, JavaFX
 • <span class="info">Description:</span> Desktop app for logging meals and calculating macronutrients
 • <span class="info">Impact:</span> Enhanced user dietary awareness, gained experience in JavaFX and desktop app development.
     `);
@@ -161,8 +161,7 @@ clear       - Clear terminal
         this.addOutput(`
 <span class="success">Experience</span>
 VP of Technology @ Competitive Programming Club, University of Calgary
-        `);
-    }
+• <span class="info">Duties:</span> I regularly update and maintain the club's website, ensuring it remains current and user-friendly. I ensure regular blog posts are published to keep members informed about upcoming events and coding challenges. I also manage the hosting services to ensure the website is always accessible.
 
     contact() {
         this.addOutput(`
