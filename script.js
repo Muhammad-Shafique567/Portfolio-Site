@@ -169,8 +169,7 @@ VP of Technology @ Competitive Programming Club, University of Calgary
         this.addOutput(`
 <span class="success">Contact Information</span>
 • Email: shafiquemuhammadali@gmail.com
-• LinkedIn:https://www.linkedin.com/in/muhammad-ali-shafique-06815032a/
-        `);
+• <span class="info">LinkedIn:</span> <a class="link" href="https://www.linkedin.com/in/muhammad-ali-shafique-06815032a/" target="_blank">https://www.linkedin.com/in/muhammad-ali-shafique-06815032a/`);
     }
 
     clear() { this.output.innerHTML = ''; }
