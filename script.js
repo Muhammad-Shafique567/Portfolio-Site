@@ -43,7 +43,7 @@ class Terminal {
     
     handleKeyDown(e) {
         if(e.key === 'Enter') {
-            const command = this.input.value.trim();
+            const command = this.input.value.trim().toLowerCase();
             if(command) { 
                 this.executeCommand(command); 
                 this.addToHistory(command);
@@ -169,7 +169,7 @@ VP of Technology @ Competitive Programming Club, University of Calgary
         this.addOutput(`
 <span class="success">Contact Information</span>
 • Email: shafiquemuhammadali@gmail.com
-• <span class="info">LinkedIn:</span> <a class="link" href="https://www.linkedin.com/in/muhammad-ali-shafique-06815032a/" target="_blank">https://www.linkedin.com/in/muhammad-ali-shafique-06815032a/`);
+• <span class="info">LinkedIn: </span> <a class="link" href="https://www.linkedin.com/in/muhammad-ali-shafique-06815032a/" target="_blank">https://www.linkedin.com/in/muhammad-ali-shafique-06815032a/`);
     }
 
     clear() { this.output.innerHTML = ''; }
