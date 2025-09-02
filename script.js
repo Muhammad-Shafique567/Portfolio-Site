@@ -162,6 +162,8 @@ clear       - Clear terminal
 <span class="success">Experience</span>
 VP of Technology @ Competitive Programming Club, University of Calgary
 • <span class="info">Duties:</span> I regularly update and maintain the club's website, ensuring it remains current and user-friendly. I ensure regular blog posts are published to keep members informed about upcoming events and coding challenges. I also manage the hosting services to ensure the website is always accessible.
+        `);
+}
 
     contact() {
         this.addOutput(`
